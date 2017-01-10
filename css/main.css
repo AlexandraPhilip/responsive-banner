@@ -1,0 +1,57 @@
+html {
+  font-family: Georgia, serif;
+}
+
+body {
+  background-color: #495562;
+}
+
+p {
+  color: #fff;
+}
+
+h1 {
+  color: #fff;
+}
+
+.btn:hover {
+  border-color: #fff;
+  color: #efefef;
+  background-color: #fff;
+}
+
+.btn {
+  color: #fff;
+  border-color: #fff;
+}
+
+@media only screen and (min-width: 60em) {
+
+  section {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(rgba(73, 85, 98, 0), rgba(73, 85, 98, .9));
+  }
+
+  header {
+    max-height: 500px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .btn {
+    border-color: #fff;
+  }
+
+  .btn-div {
+    display: inline-block;
+  }
+
+  p {
+    display: inline-block;
+    margin-right: 25%;
+    max-width: 25em;
+  }
+}
